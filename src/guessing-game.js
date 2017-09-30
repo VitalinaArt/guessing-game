@@ -7,7 +7,7 @@ class GuessingGame {
     }
 
     guess() {
-return Math.ceil((this.max+this.min)/2);
+      return Math.ceil((this.max+this.min)/2);
     }
 
     lower() {
